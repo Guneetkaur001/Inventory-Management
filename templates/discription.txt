@@ -1,0 +1,25 @@
+written in HTML, and it includes some Jinja2 templating syntax.
+
+Used Libraries:
+Jinja2 Templating: Embedded within HTML to dynamically render data on the client side.
+
+Specialties:
+
+1. Dynamic Content: Uses Jinja2 templating to dynamically generate product lists, cart details, and bill details based on the server-side data.
+2. Responsive Design: Includes viewport settings for better rendering on various devices.
+3. Clear Cart Feature: Provides a button to clear the shopping cart, improving user experience.
+
+features
+1. HTML Structure: Defines the basic structure of an HTML5 document.
+2. Meta Tags: Specifies character set, viewport settings, and compatibility.
+3. Title: Sets the title of the web page.
+4. Style Section: Includes embedded CSS styling for customizing the appearance of the web page.
+5. Header: Displays a welcome message with an H1 heading.
+6. Product Table: Lists products and their prices in a table, dynamically generated using Jinja2 templating.
+7. Add to Cart Form: Allows users to input the product name and quantity to add items to the shopping cart.
+8. Cart Details: If there are items in the cart, displays a table with product details, quantity, and subtotal.
+9. Bill Details: Displays the subtotal, tax amount, and net bill in a separate table.
+10. Clear Cart Button: Allows users to clear the shopping cart.
+11. Store Details: Displays information about the store.
+
+Note: Ensure that you have the corresponding 'shop.html'(http://127.0.0.1:5000/shop) template in the correct directory for this application to work properly.
